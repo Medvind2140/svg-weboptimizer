@@ -1,0 +1,22 @@
+{
+  "name": "svg-weboptimizer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Optimize SVGs for the web, set fill to currentColor, and clean up editor bloat.",
+  "main": "index.js",
+  "bin": {
+    "svg-weboptimizer": "svg-weboptimizer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["svg", "optimize", "web", "currentcolor"],
+  "author": "Med40",
+  "license": "MIT",
+  "dependencies": {
+    "svgo": "^2.8.0",
+    "jsdom": "^24.1.0",
+    "fs-extra": "^11.3.0",
+    "fast-glob": "^3.2.7"
+  }
+}
